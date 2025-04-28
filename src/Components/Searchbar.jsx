@@ -28,8 +28,8 @@ const Searchbar = ({onSearch}) => {
   return (
     <div className='flex font-mono justify-start items-center mb-8 gap-20 max-lg:gap-10 max-md:flex-col max-md:items-start max-md:gap-2.5'>
       <div className='Logo flex text-4xl font-bold cursor-pointer' onClick={handleLogoClick}>
-        <div className='text-orange-500'>Yummy</div>
-        <div className='text-white'>Explorer</div>
+        <div className='text-orange-500'>Tasty</div>
+        <div className='text-white'>Hunt</div>
       </div>
 
       <div className='flex w-full gap-3.5'>

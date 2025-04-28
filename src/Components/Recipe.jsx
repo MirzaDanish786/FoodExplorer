@@ -42,8 +42,8 @@ const Recipe = () => {
   return (
     <div>
        <div className='Logo flex text-4xl font-bold mb-6 cursor-pointer font-mono' onClick={handleLogoClick}>
-        <div className='text-orange-500'>Yummy</div>
-        <div className='text-white'>Explorer</div>
+        <div className='text-orange-500'>Tasty</div>
+        <div className='text-white'>Hunt</div>
       </div>
       <div
         className="Container relative w-full min-h-[100vh] p-8 flex flex-col rounded-4xl max-sm:p-3"
