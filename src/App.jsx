@@ -77,6 +77,7 @@ function App() {
     }
     catch(error){
         console.error("AI error:", error);
+        setIsLoading(false)
         Swal.fire({
           icon: 'error',
           title: 'AI Error',
