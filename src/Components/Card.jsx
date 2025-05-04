@@ -8,10 +8,10 @@ const Card = ({ recipeData }) => {
     
     const handleClick = (recipe) => {
       setRecipe_id(recipe.r_id)
-      navigate(`/Recipe`,{state: {recipeId: recipe.r_id}})
+      navigate(`/Recipe`,{state: {recipe}})
     }
     
-    
+     
   return (
     <div>
       <div className=" grid grid-cols-3 gap-6  max-lg:grid-cols-2 max-md:grid-cols-1">
